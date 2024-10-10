@@ -1,0 +1,23 @@
+/* StyledLoading.css */
+
+.loading-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f0f0f0; /* Light background for contrast */
+  }
+  
+  .loading-text {
+    color: #4fa94d; /* Match color with the loader */
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 24px; /* Increased font size */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    animation: pulse 1s infinite; /* Add pulse animation */
+  }
+
+  
